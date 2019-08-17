@@ -10,3 +10,8 @@ def batch_badge_creator (list)
   end
   list_of_badges
 end
+
+def assign_rooms (list)
+  welcome_messages
+  list.each_with_index do |name, index|
+    welcome_messages.push("Hello, #{name}! You'll be assigned to room #{index - 1}!")
