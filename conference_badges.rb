@@ -16,3 +16,5 @@ def assign_rooms (list)
   list.each_with_index do |name, index|
     welcome_messages.push("Hello, #{name}! You'll be assigned to room #{index - 1}!")
   end
+  welcome_messages
+end
