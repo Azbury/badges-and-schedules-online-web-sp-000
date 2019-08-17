@@ -24,7 +24,7 @@ def printer (list)
   rooms = assign_rooms(list)
   counter = 0
   while counter < list.size
-    puts badge[counter]
+    puts badges[counter]
     puts rooms[counter]
     counter += 1
   end
