@@ -22,7 +22,10 @@ end
 def printer (list)
   badges = batch_badge_creator(list)
   rooms = assign_rooms(list)
-  badges.each do |badge|
-    puts badge
+  counter = 0
+  while counter < list.size
+    puts badge[counter]
+    puts rooms[counter]
+    counter += 1
   end
 end
