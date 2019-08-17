@@ -18,3 +18,9 @@ def assign_rooms (list)
   end
   welcome_messages
 end
+
+def printer (list)
+  badges = batch_badge_creator(list)
+  rooms = assign_rooms(list)
+
+end
